@@ -1,1 +1,76 @@
-/* You can add global styles to this file, and also import other style files */
+// body {
+//   font-family: sans-serif, Roboto;
+//   background-color: #151515;
+//   padding-top: 60px;
+//   height:100%
+// }
+
+// /*  for all childeren*/
+// body *{
+// font-family: sans-serif, Roboto;
+// margin:0;
+// padding: 0;
+// box-sizing: border-box;
+
+// }
+
+// /* Angular Material dropdown panel */
+// .sort-select {
+//   background: white !important;
+// }
+
+// .sort-select .mat-mdc-option {
+//   color: black !important;
+// }
+
+// .sort-select .mat-mdc-option:hover {
+//   background: #eeeeee !important;
+// }
+
+@use '@angular/material' as mat;
+
+html {
+  height: 100%;
+
+  @include mat.theme((
+    color: (
+      primary: mat.$azure-palette,
+      tertiary: mat.$blue-palette,
+    ),
+    typography: Roboto,
+    density: 0,
+  ));
+}
+
+body {
+  font-family: sans-serif, Roboto;
+ background-color: #151515;
+  padding-top: 60px;
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Angular Material dropdown panel */
+.sort-select {
+  background: white !important;
+}
+
+.sort-select .mat-mdc-option {
+  color: black !important;
+}
+
+.sort-select .mat-mdc-option:hover {
+  background: #eeeeee !important;
+}
+
+// html {
+//   background: green !important;
+// }
+
+// body {
+//   background: green !important;
+// }
