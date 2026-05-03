@@ -18,7 +18,7 @@ A mini web application built with Angular 21 and TypeScript.
 - Angular Material
 - SCSS
 
-## Screenshots Of Project
+## Screenshots
 
 ### Home Page
 ![Home](screenshots/home-page.png)
