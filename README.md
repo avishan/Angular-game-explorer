@@ -24,7 +24,7 @@ A mini web application built with Angular 21 and TypeScript.
 ![Home](screenshots/home-page.png)
 
 ### Sort Dropdown
-![Sort Dropdown](./screenshots/sort-dropdown.png)
+![Sort Dropdown](screenshots/sort-dropdown.png)
 
 ### Sorted by Rating
 ![Rating](screenshots/sorted-by-rating.png)
